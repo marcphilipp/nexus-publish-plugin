@@ -5,6 +5,10 @@
 
 Gradle Plugin that explicitly creates a Staging Repository before publishing to Nexus. This solves the problem that frequently occurs when uploading to Nexus from Travis, namely split staging repositories.
 
+## ⚠️ Deprecation 🛑
+
+This plugin is now deprecated and no longer maintained. The [Gradle Nexus Publish Plugin](https://github.com/gradle-nexus/publish-plugin) is the successor of this plugin and adds additional tasks to close and release staging repositories.
+
 ## Usage
 
 The plugin does the following:
